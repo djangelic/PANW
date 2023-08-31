@@ -1,0 +1,84 @@
+[{
+	"brands": null,
+	"cacheVersn": 0,
+	"defaultIncidentType": "",
+	"definitionId": "",
+	"description": "",
+	"feed": false,
+	"fromServerVersion": "",
+	"id": "6f694d5e-c0fa-4f87-89e4-7c13dc0f83d2",
+	"incidentSamples": null,
+	"indicatorSamples": null,
+	"instanceIds": null,
+	"itemVersion": "",
+	"keyTypeMap": {
+		"films": "SWAPI Films",
+		"planets": "SWAPI Planets",
+		"starships": "SWAPI Starships"
+	},
+	"locked": false,
+	"logicalVersion": 2,
+	"mapping": null,
+	"name": "SWAPI",
+	"nameRaw": "SWAPI",
+	"packID": "",
+	"packName": "",
+	"propagationLabels": [
+		"all"
+	],
+	"sourceClassifierId": "",
+	"system": false,
+	"toServerVersion": "",
+	"transformer": {
+		"simple": "type"
+	},
+	"type": "classification",
+	"unclassifiedCases": null,
+	"version": -1
+},{
+	"brands": null,
+	"cacheVersn": 0,
+	"defaultIncidentType": "",
+	"definitionId": "",
+	"description": "",
+	"feed": false,
+	"fromServerVersion": "",
+	"id": "c0b6e895-e263-4bdf-85ba-e956d3ac671e",
+	"incidentSamples": null,
+	"indicatorSamples": null,
+	"instanceIds": null,
+	"itemVersion": "",
+	"keyTypeMap": {},
+	"locked": false,
+	"logicalVersion": 1,
+	"mapping": {
+		"SWAPI Films": {
+			"dontMapEventToLabels": false,
+			"internalMapping": {
+				"Director": {
+					"simple": "director"
+				},
+				"Episode id": {
+					"simple": "episode_id"
+				},
+				"Producer": {
+					"simple": "producer"
+				}
+			}
+		}
+	},
+	"name": "SWAPI Mapper",
+	"nameRaw": "SWAPI Mapper",
+	"packID": "",
+	"packName": "",
+	"propagationLabels": [
+		"all"
+	],
+	"sourceClassifierId": "",
+	"system": false,
+	"toServerVersion": "",
+	"transformer": {},
+	"type": "mapping-incoming",
+	"unclassifiedCases": null,
+	"version": -1
+}]

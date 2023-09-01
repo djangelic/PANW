@@ -23,12 +23,10 @@ Once the instance is successfully configured, you can run the commands from the 
 
 The available commands are:
 
-1. `get-character`: Retrieves details about a specific character.
-2. `get-species`: Retrieves details about a specific species.
-3. `get-starship`: Retrieves details about a specific starship.
+1. `fetch-incidents`: Polls the SWAPI api for film data. 
+2. `swapi-fetch-films`: Not yet active, but this will use the demisto create incidents class to create incidents directly from films
+3. `test-module`: Checks your network connection to ensure you have access to the api.
 
-Each command needs the relevant ID as an argument, e.g., `!get-character character_id=1` will retrieve information about the character with the ID 1.
-
-Please note that the SWAPI integration does not support fetching incidents or indicators.
+Please note that the SWAPI integration will only fetch incidents if you set the classifier and mapper.
 
 [View Integration Documentation](https://xsoar.pan.dev/docs/reference/integrations/swapi)
